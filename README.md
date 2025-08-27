@@ -21,7 +21,8 @@ Compare results and analyze which prompting styles yield the best results.
 
 ## Output:
 Example Comparative Test
-Scenario 1: Automated Test Script Generation
+### Scenario 1: Automated Test Script Generation
+
 Broad Prompt: "Generate a test script for login."
 
 Output: Very generic script mostly checking if login page opens, lacks coverage of edge cases or error handling.
@@ -34,7 +35,8 @@ Refined Prompt: "Create an automated test script for web login that verifies use
 
 Output: Detailed script covering positive and negative cases, validations of messages, and edge conditions.
 
-Scenario 2: Bug Identification in Test Cases
+### Scenario 2: Bug Identification in Test Cases
+
 Broad Prompt: "Check this test case for bugs."
 
 Output: General remarks often missing specific insight or potential edge cases.
@@ -47,7 +49,8 @@ Refined Prompt: "Review the login test case and identify all potential bugs and 
 
 Output: Comprehensive identification of vulnerabilities and missing cases with actionable suggestions.
 
-Scenario 3: Performance Test Planning
+### Scenario 3: Performance Test Planning
+
 Broad Prompt: "Write a performance test plan."
 
 Output: Vague, high-level description of performance testing without specifics.
@@ -60,13 +63,7 @@ Refined Prompt: "Design a detailed performance test plan for an e-commerce websi
 
 Output: Well-defined plan with clear metrics, user loads, timing scenarios, and contingency measures.
 
-Comparative Analysis
-Prompt Type	Clarity	Accuracy	Depth	Relevance
-Broad/Unstructured	Low	Low	Low	Low
-Basic Prompts	Medium	Medium	Medium	Medium
-Refined/Structured	High	High	High	High
-Few-Shot Prompts	High	High	High	High (critical for code generation, bug finding, classification)
-Result
+
 
 
 ## Result
